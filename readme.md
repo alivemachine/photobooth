@@ -31,11 +31,14 @@ python photobooth.py
 ```
 
 ## Build
+
+[Download the .exe here.](https://drive.google.com/file/d/1b2whv1LhDmlmkEVGTnO1spwc0Aavyu2q/view?usp=drive_link)
+
 To build the project into a standalone executable, use pyinstaller:
 ```
 pyinstaller --onefile --clean --add-data "C:/Users/grego/miniconda3/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml;cv2/data" --hidden-import=pyimod02_importers --hidden-import=pep517 --hidden-import=pygame.fastevent --hidden-import=pygame.overlay --hidden-import=pygrabber.dshow_graph --hidden-import=comtypes.stream --add-data "photo.wav;." photobooth.py
 ```
-[Download the .exe here.](https://drive.google.com/file/d/1b2whv1LhDmlmkEVGTnO1spwc0Aavyu2q/view?usp=drive_link)
+
 
 
 ## License
