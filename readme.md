@@ -6,6 +6,8 @@ It uses Python and OpenCV. It displays a webcam feed and saves images at 1fps wh
 
 ## Features
 
+![Screenshot of Photobooth Application](Screenshot%202024-07-15%20231906.png)
+
 - keyboard input to select the webcam feed
 - auto-selected highest resolution 
 - touchless photo capture from face detection
