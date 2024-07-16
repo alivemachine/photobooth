@@ -15,10 +15,10 @@ This is a simple photobooth application built for Windows using Python and OpenC
 ## Installation
 
 Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/photobooth.git
-    cd photobooth
-    ```
+```
+git clone https://github.com/alivemachine/photobooth
+cd photobooth
+```
 
 ## Usage
 
