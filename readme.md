@@ -6,7 +6,7 @@ It uses Python and OpenCV. It displays a webcam feed and saves images at 1fps wh
 
 ## Features
 
-![](Screenshot%202024-07-15%20231906.png?raw=true)
+![](./Screenshot%202024-07-15%20231906.png?raw=true)
 
 - keyboard input to select the webcam feed
 - auto-selected highest resolution 
