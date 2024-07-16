@@ -2,6 +2,8 @@
 
 This is a simple touchless photobooth app for Windows. 
 
+[Download the .exe here.](https://drive.google.com/file/d/1b2whv1LhDmlmkEVGTnO1spwc0Aavyu2q/view?usp=drive_link)
+
 It uses Python and OpenCV. It displays a webcam feed and saves images at 1fps when faces are detected. You can let it run anywhere at an event and nobody has to touch it, it will capture people passing by.
 
 ## Features
@@ -32,8 +34,6 @@ python photobooth.py
 ![](Screenshot%202024-07-15%20231906.jpg?raw=true)
 
 ## Build
-
-[Download the .exe here.](https://drive.google.com/file/d/1b2whv1LhDmlmkEVGTnO1spwc0Aavyu2q/view?usp=drive_link)
 
 To build the project into a standalone executable, use pyinstaller:
 ```
