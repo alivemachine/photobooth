@@ -1,6 +1,8 @@
-# Photobooth Project
+# Photobooth
 
-This is a simple photobooth application built for Windows using Python and OpenCV. It displays a webcam feed and saves images when faces are detected. You can let it run anywhere at an event and nobody has to touch it, it will capture people passing by.
+This is a simple touchless photobooth app for Windows. 
+
+It uses Python and OpenCV. It displays a webcam feed and saves images at 1fps when faces are detected. You can let it run anywhere at an event and nobody has to touch it, it will capture people passing by.
 
 ## Features
 
@@ -32,7 +34,7 @@ To build the project into a standalone executable, use pyinstaller:
 ```
 pyinstaller --onefile --clean --add-data "C:/Users/grego/miniconda3/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml;cv2/data" --hidden-import=pyimod02_importers --hidden-import=pep517 --hidden-import=pygame.fastevent --hidden-import=pygame.overlay --hidden-import=pygrabber.dshow_graph --hidden-import=comtypes.stream --add-data "photo.wav;." photobooth.py
 ```
-[You can also find the pre-built executable here.](https://drive.google.com/file/d/1b2whv1LhDmlmkEVGTnO1spwc0Aavyu2q/view?usp=drive_link)
+[Download the .exe here.](https://drive.google.com/file/d/1b2whv1LhDmlmkEVGTnO1spwc0Aavyu2q/view?usp=drive_link)
 
 
 ## License
