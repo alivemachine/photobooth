@@ -6,13 +6,14 @@ It uses Python and OpenCV. It displays a webcam feed and saves images at 1fps wh
 
 ## Features
 
-- a UI with keyboard input to select the webcam
-- auto select the highest resolution available
+- keyboard input to select the webcam feed
+- auto-selected highest resolution 
 - touchless photo capture from face detection
-- maximum capture of 1 frame per second
+- maximum capture rate of 1 frame per second
 - audio/visual feedback
 - custom sensitivity setting for the capture frequency
 - no install, one click executable
+- free and open-source
 
 ## Installation
 
